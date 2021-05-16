@@ -3,7 +3,7 @@
 function createPlot(id) {
 
     // Console.log data from json
-    d3.json("data/samples.json").then((data)=> {
+    d3.json("static/data/samples.json").then((data)=> {
         console.log(data)
     
     // BAR CHART
@@ -88,7 +88,7 @@ function createPlot(id) {
 // GET METADATA
 //function for getting metadata
 function getMeta(id) {
-    d3.json("data/samples.json").then((data)=> {
+    d3.json("static/data/samples.json").then((data)=> {
         var metadata = data.metadata;
 
         console.log("metadata", metadata)
@@ -123,7 +123,7 @@ function init() {
     var dropdown = d3.select("#selDataset");
 
     //get data
-    d3.json("data/samples.json").then((data)=> {
+    d3.json("static/data/samples.json").then((data)=> {
         console.log(data)
 
         // get id data 
