@@ -32,7 +32,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Use `otu_labels` for the text values.
 
-![Bubble Chart](Images/bubble_chart.png)
+![Bubble Chart](Images/Screen%20Shot%202021-05-16%20at%2012.46.27%20AM.png)
 
 4. Display the sample metadata, i.e., an individual's demographic information.
 
